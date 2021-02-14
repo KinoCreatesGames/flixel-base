@@ -15,7 +15,7 @@
 
 You can also create a new project based on this template using degit which will ignore all git related files.
 ```sh
-npx degit KinoCreatesGames/flixel-base
+npx degit KinoCreatesGames/flixel-base my-flixel-game
 cd my-flixel-game
 ```
 
