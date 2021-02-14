@@ -9,12 +9,13 @@
 ---
 
 *This template requires [Nodejs](https://nodejs.org/en/) (v6 or higher) to be installed to run most of the commands below.*
+*Based off Richard Bray's template [degit](https://github.com/Rich-Harris/degit).*
 
 ### 1. Download
 
-You can also create a new project based on this template using [degit](https://github.com/Rich-Harris/degit) which will ignore all .git related files.
+You can also create a new project based on this template using degit which will ignore all git related files.
 ```sh
-npx degit RichardBray/game-jam-template my-flixel-game
+npx degit KinoCreatesGames/flixel-base
 cd my-flixel-game
 ```
 
