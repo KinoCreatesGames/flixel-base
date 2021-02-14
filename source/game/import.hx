@@ -10,7 +10,14 @@ import flixel.ui.FlxBar;
 import flixel.ui.FlxButton;
 import flixel.util.FlxColor;
 import flixel.util.FlxSave;
+import game.ext.KColor;
+import states.*;
+import game.GameTypes;
 
 using Lambda;
-using ext.MathExt;
+using game.ext.MathExt;
+using ext.StringExt;
+using StringTools;
+using ext.ArrayExt;
 using flixel.util.FlxSpriteUtil;
+using game.ext.SpriteExt;
