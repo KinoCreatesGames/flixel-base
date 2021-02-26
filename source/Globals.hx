@@ -6,6 +6,7 @@ class Globals {
 	public static inline var TEXT_CONTINUE = 'Continue';
 	public static inline var TEXT_EXIT = 'Exit';
 	public static inline var TEXT_GAME_OVER = 'Game Over';
+	public static inline var TEXT_CONGRATS = 'Congratulations!!!';
 	public static inline var TEXT_OPTIONS = 'Options';
 	public static inline var TEXT_RETRY = 'Retry';
 	public static inline var TEXT_STATS = 'Stats';

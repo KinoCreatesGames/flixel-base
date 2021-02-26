@@ -1,18 +1,18 @@
 package game;
 
-typedef Actor = {
+typedef ActorData = {
 	public var name:String;
 	public var health:Int;
 	public var atk:Int;
 	public var def:Int;
-	public var agi:Int;
-	public var dex:Int;
-	public var intl:Int;
+	public var spd:Int;
+	public var sprite:String;
 }
 
-typedef Monster = {
-	> Actor,
-	public var patrol:Array<FlxPoint>;
+typedef MonsterData = {
+	> ActorData,
+	public var points:Int;
+	// public var patrol:Array<FlxPoint>;
 }
 
 typedef SceneText = {
@@ -31,7 +31,7 @@ typedef GameState = {
 typedef GameSaveState = {
 	public var saveIndex:Int;
 	public var days:Int;
-	public var playerStats:Actor;
+	public var playerStats:ActorData;
 	public var gameTime:Float;
 	public var realTime:Float;
 	public var playerAffectionLvl:Int;
