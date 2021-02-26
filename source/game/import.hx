@@ -13,6 +13,7 @@ import flixel.util.FlxSave;
 import game.ext.KColor;
 import states.*;
 import game.GameTypes;
+import game.char.*;
 import flixel.system.FlxSound;
 
 using Lambda;
