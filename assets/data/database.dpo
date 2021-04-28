@@ -128,6 +128,135 @@
                     ]
                 }
             }
+        },
+        {
+            "name": "enemies",
+            "description": "Enemies in the game",
+            "displayColumn": "id",
+            "guid": "cb420ef3-b1b8-4c2b-9878-302e59eb3850",
+            "columns": [
+                {
+                    "typeStr": "text",
+                    "guid": "fe2c1936-65be-469c-88b8-7ada0cd35b88",
+                    "name": "name",
+                    "description": "Name of the enemy",
+                    "defaultValue": "Enemy",
+                    "iconName": "newText",
+                    "configurable": {
+                        "name": "text",
+                        "description": "text",
+                        "defaultValue": "text"
+                    }
+                },
+                {
+                    "typeStr": "int",
+                    "guid": "b32ac2cd-ceae-421d-9d3d-481ff6c54119",
+                    "description": "Health of the enemy in game",
+                    "name": "health",
+                    "min": -10000,
+                    "max": 100000,
+                    "defaultValue": 1,
+                    "iconName": "newInt",
+                    "configurable": {
+                        "name": "text",
+                        "description": "text",
+                        "min": "int",
+                        "max": "int",
+                        "defaultValue": "int"
+                    }
+                },
+                {
+                    "typeStr": "int",
+                    "guid": "bb52c6a8-d547-400a-8e57-ec64c23eec4c",
+                    "description": "Attack power of the enemy in game.",
+                    "name": "atk",
+                    "min": -10000,
+                    "max": 100000,
+                    "defaultValue": 5,
+                    "iconName": "newInt",
+                    "configurable": {
+                        "name": "text",
+                        "description": "text",
+                        "min": "int",
+                        "max": "int",
+                        "defaultValue": "int"
+                    }
+                },
+                {
+                    "typeStr": "int",
+                    "guid": "fa77c317-ed0d-4e53-ad53-9feb9c3add8d",
+                    "description": "Defense of the enemy in game.",
+                    "name": "def",
+                    "min": -10000,
+                    "max": 100000,
+                    "defaultValue": 1,
+                    "iconName": "newInt",
+                    "configurable": {
+                        "name": "text",
+                        "description": "text",
+                        "min": "int",
+                        "max": "int",
+                        "defaultValue": "int"
+                    }
+                },
+                {
+                    "typeStr": "int",
+                    "guid": "47fa7b52-c23f-47f5-ada1-a81bee629ea1",
+                    "description": "Speed of the enemy in game.",
+                    "name": "spd",
+                    "min": -10000,
+                    "max": 100000,
+                    "defaultValue": 1,
+                    "iconName": "newInt",
+                    "configurable": {
+                        "name": "text",
+                        "description": "text",
+                        "min": "int",
+                        "max": "int",
+                        "defaultValue": "int"
+                    }
+                },
+                {
+                    "typeStr": "image",
+                    "guid": "152a51a5-1d69-4838-b4e9-9af8df77793f",
+                    "name": "sprite",
+                    "description": "Enemy sprite reference",
+                    "defaultValue": "",
+                    "iconName": "newImage",
+                    "configurable": {
+                        "name": "text",
+                        "description": "text",
+                        "defaultValue": "text"
+                    }
+                }
+            ],
+            "lines": [
+                {
+                    "guid": "c49a0884-ee5b-4797-b0dd-33a21e5548c3",
+                    "id": "0",
+                    "name": "Enemy",
+                    "health": 1,
+                    "atk": 5,
+                    "def": 1,
+                    "spd": 1,
+                    "sprite": ""
+                }
+            ],
+            "hidden": false,
+            "isProps": false,
+            "configurable": {
+                "name": "text",
+                "description": "text",
+                "displayColumn": "columnSelect@name",
+                "columnSelect@name@displayColumn": {
+                    "allowedTypes": [
+                        "int",
+                        "float",
+                        "text",
+                        "longtext"
+                    ]
+                }
+            }
         }
     ]
 }
