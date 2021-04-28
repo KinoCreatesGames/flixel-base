@@ -8,11 +8,13 @@ class Collectible extends FlxSprite {
 
 	public function new(x:Float, y:Float) {
 		super(x, y);
-		this.initialY = y + 6;
+		this.initialY = y;
 		setSprite();
-		this.setSize(16, 16);
 	}
 
+	/**
+	 * Used to setup the base sprite for the collectible.
+	 */
 	public function setSprite() {}
 
 	override public function update(elapsed:Float) {
