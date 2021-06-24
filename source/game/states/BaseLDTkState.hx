@@ -2,7 +2,7 @@ package game.states;
 
 import flixel.group.FlxSpriteGroup;
 
-class BaseLDTkState {
+class BaseLDTkState extends FlxState {
 	public var completeLevel:Bool;
 	public var gameOver:Bool;
 
