@@ -47,4 +47,10 @@ class Globals {
 	 * Normal Size
 	 */
 	public static inline var FONT_N:Int = 12;
+	
+	public static var ldtkProj(get, null):LDTkProj;
+
+        public static inline function get_ldtkProj() {
+          return new LDTkProj();
+        }
 }
